@@ -1,0 +1,18 @@
+<% include partials/header %>
+<div class="row text-center main">
+  <h2>What's the url you'd like shortened?</h2>
+</div>
+<div class="row text-center">
+  <form action="/urls" method="post" class="form-inline" role="form">
+    <div class="form-group">
+      <input type="text" name='url' class="form-control" id="userUrl" placeholder="Paste your link here">
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
+
+
+
+
+
+<% include partials/footer %>

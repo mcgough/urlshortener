@@ -1,0 +1,48 @@
+body {
+  letter-spacing: .10em;
+  font-family: 'Playfair Display SC', serif;
+}
+h1 {
+  font-size: 4em;
+  font-family: 'Playfair Display SC', serif;
+  text-shadow: 1px 1px 1px gray;
+}
+h3 {
+  font-family: 'Playfair Display SC', serif;
+  font-style: italic;
+  color: blue;
+}
+h2,
+p {
+  font-family: 'Cinzel Decorative', cursive;
+}
+.main {
+  margin-top: 6em;
+}
+#userUrl {
+  width: 200%;
+  height: 4em;
+  margin-top: 4em;
+  color: blue;
+}
+button {
+  width: 10%;
+  height: 4em;
+  margin-left: 15em;
+  margin-top: 4.0em;
+}
+ul {
+  width: 70%;
+  border: none;
+  margin: auto;
+}
+a {
+  color: black;
+  font-family: 'Playfair Display SC', serif;
+}
+a:hover {
+  text-decoration: none;
+}
+.return {
+  margin-top: 6em;
+}

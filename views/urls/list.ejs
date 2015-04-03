@@ -1,0 +1,27 @@
+<% include ../partials/header %>
+<div class="row text-center">
+  <h2>List of Shortened urls</h2>
+</div>
+<div class='row'>
+  <table class="table table-hover">
+    <thead>
+      <tr>
+        <th>Original url</th>
+        <th>Shortened url</th>
+        <th>Clicks</th>
+      </tr>
+    </thead>
+    <tbody>
+    <% linkKey.forEach(function(items){ %>
+      <tr>
+        <td><%= items.url %></td>
+        <td>http://localhost:3000/<%= items.hash %></td>
+        <td><%= items.click %></td>
+      </tr>
+    <% }) %>
+    </tbody>
+  </table>
+</div>
+
+
+<% include ../partials/footer %>
